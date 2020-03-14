@@ -1,0 +1,73 @@
+[{
+        "id": "1",
+        "clave": "1",
+        "característica": "Acrocárpicos",
+        "antecesor": "0",
+        "genero": "",
+        "imagen": ""
+    },
+    {
+        "id": "2",
+        "clave": "2",
+        "característica": "Hojas sin lamelas",
+        "antecesor": "1",
+        "genero": "",
+        "imagen": ""
+    },
+    {
+        "id": "3",
+        "clave": "3",
+        "característica": "Hojas dísticas formando dos hileras a lo largo del tallo",
+        "antecesor": "2",
+        "genero": "",
+        "imagen": ""
+    },
+    {
+        "id": "4",
+        "clave": "4",
+        "característica": "Hojas formadas por tres partes: lamina vaginante, lamina dorsal y lamina ventral",
+        "antecesor": "3",
+        "genero": "Fissidens",
+        "imagen": ""
+    },
+    {
+        "id": "5",
+        "clave": "4",
+        "característica": "Hojas formadas por una sola lámina",
+        "antecesor": "3",
+        "genero": "",
+        "imagen": ""
+    },
+    {
+        "id": "6",
+        "clave": "5",
+        "característica": "Hojas no envainantes; opacas",
+        "antecesor": "5",
+        "genero": "Eustichia",
+        "imagen": ""
+    },
+    {
+        "id": "7",
+        "clave": "5",
+        "característica": "Hojas envainantes sobrepuestas o apretadas, pero con los ápices foliares esparcidos; lustrosos",
+        "antecesor": "5",
+        "genero": "",
+        "imagen": ""
+    },
+    {
+        "id": "8",
+        "clave": "6",
+        "característica": "Hojas formadas abruptamente una súbula lineal, rugosa; costa muy rugosa, excurrente, llenando la mayoría de la súbula",
+        "antecesor": "7",
+        "genero": "Distichium",
+        "imagen": ""
+    },
+    {
+        "id": "9",
+        "clave": "6",
+        "característica": "Hojas inferiores obtusas y redondeadas en al ápice; las hojas superiores tornándose apiculadas y aquilladas",
+        "antecesor": "7",
+        "genero": "Bryoxiphium",
+        "imagen": ""
+    }
+]

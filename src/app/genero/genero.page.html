@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Genero</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card padding *ngFor="let genero of generos">
+        <ion-card-title>{{genero.nombre}}</ion-card-title>
+        <ion-card-content>
+          <ion-img [src]="genero.imagen" alt="Imagen no disponible"></ion-img>
+        </ion-card-content>
+      </ion-card>
+</ion-content>

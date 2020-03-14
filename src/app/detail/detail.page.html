@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="glosario"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Glosario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card padding *ngFor="let def of definicion">
+    <ion-card-title>{{def.palabra}}</ion-card-title>
+    <ion-card-content>
+      {{def.definicion}}
+      <ion-img [src]="def.imagen" ></ion-img>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
